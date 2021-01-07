@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-size: 36px;
+  font-family: "Redressed", cursive;
+  color: white;
+}
+
+header nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.main,
+.contacts,
+.menu {
+  height: 100vh;
+  background-color: #474747;
+  background: url(../src/img/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) #474747 no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main .container,
+.contacts .container,
+.menu .container {
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main .text,
+.contacts .text,
+.menu .text {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main h1,
+.contacts h1,
+.menu h1 {
+  font-family: "Redressed", cursive;
+  font-size: 6rem;
+  line-height: 8rem;
+  color: white;
+}
+
+.main p,
+.contacts p,
+.menu p {
+  color: white;
+}
+
+.main .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .text {
+  text-align: center;
+  width: 60%;
+}
+
+.contacts {
+  height: 100vh;
+  background-color: #474747;
+  background: url(../src/img/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) #474747 no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contacts .container {
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts h1 {
+  margin-bottom: 40px;
+}
+
+.menu .cardsContainer {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu .card {
+  width: 230px;
+  height: 370px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px dashed white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu h2 {
+  font-family: "Redressed", cursive;
+  color: white;
+}
+
+.menu h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.menu img {
+  margin: 10px 0 15px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+/*# sourceMappingURL=style.css.map */
